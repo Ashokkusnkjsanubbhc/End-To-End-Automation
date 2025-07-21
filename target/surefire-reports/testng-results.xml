@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-20T09:38:54 UTC" name="Surefire suite" finished-at="2025-07-20T09:39:50 UTC" duration-ms="55986">
+    <groups>
+    </groups>
+    <test started-at="2025-07-20T09:38:54 UTC" name="Surefire test" finished-at="2025-07-20T09:39:50 UTC" duration-ms="55986">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:38:54 UTC" name="setup" finished-at="2025-07-20T09:39:13 UTC" duration-ms="19041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="bothInvalid()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:13 UTC" name="bothInvalid" finished-at="2025-07-20T09:39:14 UTC" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bothInvalid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:14 UTC" name="tearDown" finished-at="2025-07-20T09:39:15 UTC" duration-ms="629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:15 UTC" name="setup" finished-at="2025-07-20T09:39:18 UTC" duration-ms="3003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyBothFields()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:18 UTC" name="emptyBothFields" finished-at="2025-07-20T09:39:18 UTC" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyBothFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:18 UTC" name="tearDown" finished-at="2025-07-20T09:39:19 UTC" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:19 UTC" name="setup" finished-at="2025-07-20T09:39:21 UTC" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyPassword()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:21 UTC" name="emptyPassword" finished-at="2025-07-20T09:39:22 UTC" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:22 UTC" name="tearDown" finished-at="2025-07-20T09:39:22 UTC" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:22 UTC" name="setup" finished-at="2025-07-20T09:39:25 UTC" duration-ms="2973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyUsername()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:25 UTC" name="emptyUsername" finished-at="2025-07-20T09:39:26 UTC" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:26 UTC" name="tearDown" finished-at="2025-07-20T09:39:26 UTC" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:26 UTC" name="setup" finished-at="2025-07-20T09:39:29 UTC" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPassword()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:29 UTC" name="invalidPassword" finished-at="2025-07-20T09:39:30 UTC" duration-ms="1108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:30 UTC" name="tearDown" finished-at="2025-07-20T09:39:30 UTC" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:30 UTC" name="setup" finished-at="2025-07-20T09:39:33 UTC" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUsername()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:33 UTC" name="invalidUsername" finished-at="2025-07-20T09:39:34 UTC" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:34 UTC" name="tearDown" finished-at="2025-07-20T09:39:34 UTC" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:34 UTC" name="setup" finished-at="2025-07-20T09:39:37 UTC" duration-ms="2936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="lockedOutUser()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:37 UTC" name="lockedOutUser" finished-at="2025-07-20T09:39:38 UTC" duration-ms="679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedOutUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:38 UTC" name="tearDown" finished-at="2025-07-20T09:39:38 UTC" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:38 UTC" name="setup" finished-at="2025-07-20T09:39:41 UTC" duration-ms="2804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="problemUserLogin()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:41 UTC" name="problemUserLogin" finished-at="2025-07-20T09:39:42 UTC" duration-ms="1057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- problemUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:42 UTC" name="tearDown" finished-at="2025-07-20T09:39:42 UTC" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:42 UTC" name="setup" finished-at="2025-07-20T09:39:45 UTC" duration-ms="2884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="usernameCaseSensitivity()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:45 UTC" name="usernameCaseSensitivity" finished-at="2025-07-20T09:39:46 UTC" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usernameCaseSensitivity -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:46 UTC" name="tearDown" finished-at="2025-07-20T09:39:46 UTC" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:46 UTC" name="setup" finished-at="2025-07-20T09:39:49 UTC" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:49 UTC" name="validLogin" finished-at="2025-07-20T09:39:50 UTC" duration-ms="754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5906ebcb]" started-at="2025-07-20T09:39:50 UTC" name="tearDown" finished-at="2025-07-20T09:39:50 UTC" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
