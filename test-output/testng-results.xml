@@ -1,152 +1,142 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="37" passed="27" failed="10" skipped="0">
+<testng-results ignored="0" total="37" passed="27" failed="1" skipped="9">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-21T04:04:05 UTC" name="SauceDemoSuite" finished-at="2025-07-21T04:06:53 UTC" duration-ms="168046">
+  <suite started-at="2025-07-22T04:27:39 UTC" name="SauceDemoSuite" finished-at="2025-07-22T04:29:12 UTC" duration-ms="92556">
     <groups>
     </groups>
-    <test started-at="2025-07-21T04:04:05 UTC" name="Login Test" finished-at="2025-07-21T04:06:53 UTC" duration-ms="168046">
+    <test started-at="2025-07-22T04:27:39 UTC" name="Login Test" finished-at="2025-07-22T04:29:12 UTC" duration-ms="92556">
       <class name="tests.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:05 UTC" name="setup" finished-at="2025-07-21T04:04:33 UTC" duration-ms="28186" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:39 UTC" name="setup" finished-at="2025-07-22T04:27:43 UTC" duration-ms="3999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="bothInvalid()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:33 UTC" name="bothInvalid" finished-at="2025-07-21T04:04:34 UTC" duration-ms="883" status="PASS">
+        <test-method signature="bothInvalid()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:43 UTC" name="bothInvalid" finished-at="2025-07-22T04:27:44 UTC" duration-ms="718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bothInvalid -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:34 UTC" name="tearDown" finished-at="2025-07-21T04:04:35 UTC" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:44 UTC" name="tearDown" finished-at="2025-07-22T04:27:44 UTC" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:35 UTC" name="setup" finished-at="2025-07-21T04:04:37 UTC" duration-ms="2192" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:44 UTC" name="setup" finished-at="2025-07-22T04:27:46 UTC" duration-ms="1960" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="emptyBothFields()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:37 UTC" name="emptyBothFields" finished-at="2025-07-21T04:04:38 UTC" duration-ms="982" status="PASS">
+        <test-method signature="emptyBothFields()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:46 UTC" name="emptyBothFields" finished-at="2025-07-22T04:27:47 UTC" duration-ms="512" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyBothFields -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:38 UTC" name="tearDown" finished-at="2025-07-21T04:04:38 UTC" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:47 UTC" name="tearDown" finished-at="2025-07-22T04:27:47 UTC" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:38 UTC" name="setup" finished-at="2025-07-21T04:04:40 UTC" duration-ms="1915" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:47 UTC" name="setup" finished-at="2025-07-22T04:27:50 UTC" duration-ms="2552" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="emptyPassword()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:40 UTC" name="emptyPassword" finished-at="2025-07-21T04:04:41 UTC" duration-ms="810" status="PASS">
+        <test-method signature="emptyPassword()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:50 UTC" name="emptyPassword" finished-at="2025-07-22T04:27:50 UTC" duration-ms="492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:41 UTC" name="tearDown" finished-at="2025-07-21T04:04:41 UTC" duration-ms="269" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:50 UTC" name="tearDown" finished-at="2025-07-22T04:27:50 UTC" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:41 UTC" name="setup" finished-at="2025-07-21T04:04:44 UTC" duration-ms="2392" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:50 UTC" name="setup" finished-at="2025-07-22T04:27:53 UTC" duration-ms="2407" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="emptyUsername()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:44 UTC" name="emptyUsername" finished-at="2025-07-21T04:04:45 UTC" duration-ms="856" status="PASS">
+        <test-method signature="emptyUsername()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:53 UTC" name="emptyUsername" finished-at="2025-07-22T04:27:53 UTC" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- emptyUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:45 UTC" name="tearDown" finished-at="2025-07-21T04:04:45 UTC" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:53 UTC" name="tearDown" finished-at="2025-07-22T04:27:54 UTC" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:45 UTC" name="setup" finished-at="2025-07-21T04:04:47 UTC" duration-ms="2199" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:54 UTC" name="setup" finished-at="2025-07-22T04:27:56 UTC" duration-ms="2125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidPassword()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:47 UTC" name="invalidPassword" finished-at="2025-07-21T04:04:48 UTC" duration-ms="1082" status="PASS">
+        <test-method signature="invalidPassword()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:56 UTC" name="invalidPassword" finished-at="2025-07-22T04:27:56 UTC" duration-ms="658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:48 UTC" name="tearDown" finished-at="2025-07-21T04:04:48 UTC" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:56 UTC" name="tearDown" finished-at="2025-07-22T04:27:57 UTC" duration-ms="276" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:48 UTC" name="setup" finished-at="2025-07-21T04:04:51 UTC" duration-ms="2426" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:57 UTC" name="setup" finished-at="2025-07-22T04:27:59 UTC" duration-ms="2751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="invalidUsername()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:51 UTC" name="invalidUsername" finished-at="2025-07-21T04:04:52 UTC" duration-ms="705" status="PASS">
+        <test-method signature="invalidUsername()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:27:59 UTC" name="invalidUsername" finished-at="2025-07-22T04:28:00 UTC" duration-ms="558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUsername -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:52 UTC" name="tearDown" finished-at="2025-07-21T04:04:52 UTC" duration-ms="226" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:00 UTC" name="tearDown" finished-at="2025-07-22T04:28:00 UTC" duration-ms="194" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:52 UTC" name="setup" finished-at="2025-07-21T04:04:54 UTC" duration-ms="2575" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:00 UTC" name="setup" finished-at="2025-07-22T04:28:02 UTC" duration-ms="2426" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="lockedOutUser()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:54 UTC" name="lockedOutUser" finished-at="2025-07-21T04:04:55 UTC" duration-ms="693" status="PASS">
+        <test-method signature="lockedOutUser()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:02 UTC" name="lockedOutUser" finished-at="2025-07-22T04:28:03 UTC" duration-ms="576" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedOutUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:55 UTC" name="tearDown" finished-at="2025-07-21T04:04:55 UTC" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:03 UTC" name="tearDown" finished-at="2025-07-22T04:28:03 UTC" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:55 UTC" name="setup" finished-at="2025-07-21T04:04:58 UTC" duration-ms="2665" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:03 UTC" name="setup" finished-at="2025-07-22T04:28:06 UTC" duration-ms="2245" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="problemUserLogin()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:58 UTC" name="problemUserLogin" finished-at="2025-07-21T04:04:59 UTC" duration-ms="928" status="PASS">
+        <test-method signature="problemUserLogin()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:06 UTC" name="problemUserLogin" finished-at="2025-07-22T04:28:06 UTC" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- problemUserLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:59 UTC" name="tearDown" finished-at="2025-07-21T04:04:59 UTC" duration-ms="277" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:06 UTC" name="tearDown" finished-at="2025-07-22T04:28:07 UTC" duration-ms="250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:04:59 UTC" name="setup" finished-at="2025-07-21T04:05:02 UTC" duration-ms="2641" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:07 UTC" name="setup" finished-at="2025-07-22T04:28:09 UTC" duration-ms="2471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="usernameCaseSensitivity()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:05:02 UTC" name="usernameCaseSensitivity" finished-at="2025-07-21T04:05:03 UTC" duration-ms="655" status="PASS">
+        <test-method signature="usernameCaseSensitivity()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:09 UTC" name="usernameCaseSensitivity" finished-at="2025-07-22T04:28:10 UTC" duration-ms="790" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usernameCaseSensitivity -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:05:03 UTC" name="tearDown" finished-at="2025-07-21T04:05:03 UTC" duration-ms="196" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:10 UTC" name="tearDown" finished-at="2025-07-22T04:28:10 UTC" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:05:03 UTC" name="setup" finished-at="2025-07-21T04:05:05 UTC" duration-ms="2645" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:10 UTC" name="setup" finished-at="2025-07-22T04:28:12 UTC" duration-ms="1781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:05:05 UTC" name="validLogin" finished-at="2025-07-21T04:05:06 UTC" duration-ms="801" status="PASS">
+        <test-method signature="validLogin()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:12 UTC" name="validLogin" finished-at="2025-07-22T04:28:13 UTC" duration-ms="730" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@708f5957]" started-at="2025-07-21T04:05:06 UTC" name="tearDown" finished-at="2025-07-21T04:05:07 UTC" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@702657cc]" started-at="2025-07-22T04:28:13 UTC" name="tearDown" finished-at="2025-07-22T04:28:13 UTC" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.CartTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:45 UTC" name="setup" finished-at="2025-07-21T04:05:48 UTC" duration-ms="3350" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addMultipleItemsToCartAndVerify()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:48 UTC" name="addMultipleItemsToCartAndVerify" finished-at="2025-07-21T04:05:49 UTC" duration-ms="359" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="addMultipleItemsToCartAndVerify()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="addMultipleItemsToCartAndVerify" finished-at="2025-07-22T04:28:48 UTC" duration-ms="7" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[expected [2] but found [0]]]>
+              <![CDATA[Cannot invoke "pages.ProductPage.addProductByIndex(int)" because "this.productPage" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [2] but found [0]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at tests.CartTest.addMultipleItemsToCartAndVerify(CartTest.java:93)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "pages.ProductPage.addProductByIndex(int)" because "this.productPage" is null
+at tests.CartTest.addMultipleItemsToCartAndVerify(CartTest.java:90)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -175,36 +165,27 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addMultipleItemsToCartAndVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:49 UTC" name="tearDown" finished-at="2025-07-21T04:05:49 UTC" duration-ms="163" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:49 UTC" name="setup" finished-at="2025-07-21T04:05:52 UTC" duration-ms="3303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addProductAndVerifyInCart()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:52 UTC" name="addProductAndVerifyInCart" finished-at="2025-07-21T04:05:52 UTC" duration-ms="191" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="2025-07-22T04:28:48 UTC" duration-ms="2" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[expected [1] but found [0]]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at tests.CartTest.addProductAndVerifyInCart(CartTest.java:37)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -229,60 +210,76 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="addProductAndVerifyInCart()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="addProductAndVerifyInCart" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProductAndVerifyInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:52 UTC" name="tearDown" finished-at="2025-07-21T04:05:53 UTC" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528748" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:53 UTC" name="setup" finished-at="2025-07-21T04:05:56 UTC" duration-ms="3210" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="badgeCountMatchesCartItems()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:56 UTC" name="badgeCountMatchesCartItems" finished-at="2025-07-21T04:05:56 UTC" duration-ms="230" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="badgeCountMatchesCartItems()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="badgeCountMatchesCartItems" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e2ffd704c1301cfc4c929acf5d3f714b, findElement {using=class name, value=shopping_cart_badge}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50299/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e2ffd704c1301cfc4c929acf5d3f714b]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".shopping_cart_badge"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [e2ffd704c1301cfc4c929acf5d3f714b, findElement {using=class name, value=shopping_cart_badge}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50299}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50299/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: e2ffd704c1301cfc4c929acf5d3f714b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at tests.CartTest.badgeCountMatchesCartItems(CartTest.java:113)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -307,88 +304,129 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- badgeCountMatchesCartItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:56 UTC" name="tearDown" finished-at="2025-07-21T04:05:56 UTC" duration-ms="242" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528848" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:05:56 UTC" name="setup" finished-at="2025-07-21T04:06:00 UTC" duration-ms="3416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="cartPageWithoutAddingItems()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:00 UTC" name="cartPageWithoutAddingItems" finished-at="2025-07-21T04:06:00 UTC" duration-ms="128" status="PASS">
+        <test-method signature="cartPageWithoutAddingItems()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="cartPageWithoutAddingItems" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cartPageWithoutAddingItems -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:00 UTC" name="tearDown" finished-at="2025-07-21T04:06:00 UTC" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528874" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:00 UTC" name="setup" finished-at="2025-07-21T04:06:04 UTC" duration-ms="3391" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="checkoutButtonNavigatesToCheckoutStepOne()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:04 UTC" name="checkoutButtonNavigatesToCheckoutStepOne" finished-at="2025-07-21T04:06:04 UTC" duration-ms="342" status="PASS">
+        <test-method signature="checkoutButtonNavigatesToCheckoutStepOne()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="checkoutButtonNavigatesToCheckoutStepOne" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutButtonNavigatesToCheckoutStepOne -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:04 UTC" name="tearDown" finished-at="2025-07-21T04:06:04 UTC" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528883" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:04 UTC" name="setup" finished-at="2025-07-21T04:06:08 UTC" duration-ms="3452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="continueShoppingReturnsToProducts()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:08 UTC" name="continueShoppingReturnsToProducts" finished-at="2025-07-21T04:06:08 UTC" duration-ms="216" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="continueShoppingReturnsToProducts()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="continueShoppingReturnsToProducts" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#continue\-shopping"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4cb4d5edc189c57e737593523fdd6096, findElement {using=id, value=continue-shopping}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50377/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4cb4d5edc189c57e737593523fdd6096]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#continue\-shopping"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4cb4d5edc189c57e737593523fdd6096, findElement {using=id, value=continue-shopping}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50377}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50377/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4cb4d5edc189c57e737593523fdd6096
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-at pages.CartPage.clickContinueShopping(CartPage.java:44)
-at tests.CartTest.continueShoppingReturnsToProducts(CartTest.java:74)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -413,73 +451,31 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- continueShoppingReturnsToProducts -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:08 UTC" name="tearDown" finished-at="2025-07-21T04:06:08 UTC" duration-ms="252" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528898" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:08 UTC" name="setup" finished-at="2025-07-21T04:06:11 UTC" duration-ms="3353" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="freshLoginHasEmptyCart()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:11 UTC" name="freshLoginHasEmptyCart" finished-at="2025-07-21T04:06:12 UTC" duration-ms="207" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- freshLoginHasEmptyCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:12 UTC" name="tearDown" finished-at="2025-07-21T04:06:12 UTC" duration-ms="234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:12 UTC" name="setup" finished-at="2025-07-21T04:06:15 UTC" duration-ms="3317" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="removeItemFromCartPage()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:15 UTC" name="removeItemFromCartPage" finished-at="2025-07-21T04:06:15 UTC" duration-ms="219" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="freshLoginHasEmptyCart()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="freshLoginHasEmptyCart" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Sauce Labs Backpack']/ancestor::div[@class='cart_item']//button"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1c79e554a4456e8805b9f5a7cfbe681, findElement {using=xpath, value=//div[text()='Sauce Labs Backpack']/ancestor::div[@class='cart_item']//button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50431/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d1c79e554a4456e8805b9f5a7cfbe681]]>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Sauce Labs Backpack']/ancestor::div[@class='cart_item']//button"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d1c79e554a4456e8805b9f5a7cfbe681, findElement {using=xpath, value=//div[text()='Sauce Labs Backpack']/ancestor::div[@class='cart_item']//button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50431/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d1c79e554a4456e8805b9f5a7cfbe681
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at pages.CartPage.removeItemByName(CartPage.java:52)
-at tests.CartTest.removeItemFromCartPage(CartTest.java:64)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -504,475 +500,366 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freshLoginHasEmptyCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528907" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="removeItemFromCartPage()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="removeItemFromCartPage" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeItemFromCartPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:15 UTC" name="tearDown" finished-at="2025-07-21T04:06:16 UTC" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528922" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:16 UTC" name="setup" finished-at="2025-07-21T04:06:19 UTC" duration-ms="3339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductNameInCart()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:19 UTC" name="verifyProductNameInCart" finished-at="2025-07-21T04:06:19 UTC" duration-ms="221" status="PASS">
+        <test-method signature="verifyProductNameInCart()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="verifyProductNameInCart" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductNameInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:19 UTC" name="tearDown" finished-at="2025-07-21T04:06:19 UTC" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528933" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:19 UTC" name="setup" finished-at="2025-07-21T04:06:23 UTC" duration-ms="3487" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductPriceInCart()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:23 UTC" name="verifyProductPriceInCart" finished-at="2025-07-21T04:06:23 UTC" duration-ms="251" status="PASS">
+        <test-method signature="verifyProductPriceInCart()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="verifyProductPriceInCart" finished-at="2025-07-22T04:28:48 UTC" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+at tests.CartTest.tearDown(CartTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPriceInCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@5e0826e7]" started-at="2025-07-21T04:06:23 UTC" name="tearDown" finished-at="2025-07-21T04:06:24 UTC" duration-ms="425" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@489115ef]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="1970-01-01T00:00:00 UTC" duration-ms="-1753158528939" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.CartTest -->
       <class name="tests.ProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:07 UTC" name="setup" finished-at="2025-07-21T04:05:10 UTC" duration-ms="3526" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:13 UTC" name="setup" finished-at="2025-07-22T04:28:16 UTC" duration-ms="3171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addAllProductsToCart()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:10 UTC" name="addAllProductsToCart" finished-at="2025-07-21T04:05:11 UTC" duration-ms="558" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [6] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [6] but found [0]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at tests.ProductTest.addAllProductsToCart(ProductTest.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="addAllProductsToCart()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:16 UTC" name="addAllProductsToCart" finished-at="2025-07-22T04:28:17 UTC" duration-ms="599" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addAllProductsToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:11 UTC" name="tearDown" finished-at="2025-07-21T04:05:11 UTC" duration-ms="195" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:17 UTC" name="tearDown" finished-at="2025-07-22T04:28:17 UTC" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:11 UTC" name="setup" finished-at="2025-07-21T04:05:14 UTC" duration-ms="3314" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:17 UTC" name="setup" finished-at="2025-07-22T04:28:20 UTC" duration-ms="2879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addSingleProductToCart()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:14 UTC" name="addSingleProductToCart" finished-at="2025-07-21T04:05:14 UTC" duration-ms="158" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [1] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [1] but found [0]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at tests.ProductTest.addSingleProductToCart(ProductTest.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="addSingleProductToCart()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:20 UTC" name="addSingleProductToCart" finished-at="2025-07-22T04:28:20 UTC" duration-ms="211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addSingleProductToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:14 UTC" name="tearDown" finished-at="2025-07-21T04:05:15 UTC" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:20 UTC" name="tearDown" finished-at="2025-07-22T04:28:20 UTC" duration-ms="208" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:15 UTC" name="setup" finished-at="2025-07-21T04:05:18 UTC" duration-ms="3270" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:20 UTC" name="setup" finished-at="2025-07-22T04:28:23 UTC" duration-ms="2593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openProductDetails()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:18 UTC" name="openProductDetails" finished-at="2025-07-21T04:05:18 UTC" duration-ms="138" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at tests.ProductTest.openProductDetails(ProductTest.java:90)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="openProductDetails()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:23 UTC" name="openProductDetails" finished-at="2025-07-22T04:28:23 UTC" duration-ms="412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openProductDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:18 UTC" name="tearDown" finished-at="2025-07-21T04:05:18 UTC" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:23 UTC" name="tearDown" finished-at="2025-07-22T04:28:23 UTC" duration-ms="265" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:18 UTC" name="setup" finished-at="2025-07-21T04:05:21 UTC" duration-ms="2777" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:23 UTC" name="setup" finished-at="2025-07-22T04:28:26 UTC" duration-ms="2910" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="removeProductFromCart()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:21 UTC" name="removeProductFromCart" finished-at="2025-07-21T04:05:21 UTC" duration-ms="265" status="PASS">
+        <test-method signature="removeProductFromCart()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:26 UTC" name="removeProductFromCart" finished-at="2025-07-22T04:28:27 UTC" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- removeProductFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:21 UTC" name="tearDown" finished-at="2025-07-21T04:05:22 UTC" duration-ms="197" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:27 UTC" name="tearDown" finished-at="2025-07-22T04:28:27 UTC" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:22 UTC" name="setup" finished-at="2025-07-21T04:05:25 UTC" duration-ms="3586" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:27 UTC" name="setup" finished-at="2025-07-22T04:28:30 UTC" duration-ms="3610" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sortByNameAZ()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:25 UTC" name="sortByNameAZ" finished-at="2025-07-21T04:05:25 UTC" duration-ms="226" status="PASS">
+        <test-method signature="sortByNameAZ()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:30 UTC" name="sortByNameAZ" finished-at="2025-07-22T04:28:31 UTC" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByNameAZ -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:25 UTC" name="tearDown" finished-at="2025-07-21T04:05:26 UTC" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:31 UTC" name="tearDown" finished-at="2025-07-22T04:28:31 UTC" duration-ms="248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:26 UTC" name="setup" finished-at="2025-07-21T04:05:29 UTC" duration-ms="3572" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:31 UTC" name="setup" finished-at="2025-07-22T04:28:34 UTC" duration-ms="3285" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sortByNameZA()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:29 UTC" name="sortByNameZA" finished-at="2025-07-21T04:05:30 UTC" duration-ms="334" status="PASS">
+        <test-method signature="sortByNameZA()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:34 UTC" name="sortByNameZA" finished-at="2025-07-22T04:28:34 UTC" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByNameZA -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:30 UTC" name="tearDown" finished-at="2025-07-21T04:05:30 UTC" duration-ms="357" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:34 UTC" name="tearDown" finished-at="2025-07-22T04:28:35 UTC" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:30 UTC" name="setup" finished-at="2025-07-21T04:05:33 UTC" duration-ms="3379" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:35 UTC" name="setup" finished-at="2025-07-22T04:28:38 UTC" duration-ms="3074" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sortByPriceHighToLow()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:33 UTC" name="sortByPriceHighToLow" finished-at="2025-07-21T04:05:34 UTC" duration-ms="231" status="PASS">
+        <test-method signature="sortByPriceHighToLow()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:38 UTC" name="sortByPriceHighToLow" finished-at="2025-07-22T04:28:38 UTC" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPriceHighToLow -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:34 UTC" name="tearDown" finished-at="2025-07-21T04:05:34 UTC" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:38 UTC" name="tearDown" finished-at="2025-07-22T04:28:38 UTC" duration-ms="270" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:34 UTC" name="setup" finished-at="2025-07-21T04:05:37 UTC" duration-ms="3283" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:38 UTC" name="setup" finished-at="2025-07-22T04:28:42 UTC" duration-ms="3216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:37 UTC" name="sortByPriceLowToHigh" finished-at="2025-07-21T04:05:37 UTC" duration-ms="367" status="PASS">
+        <test-method signature="sortByPriceLowToHigh()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:42 UTC" name="sortByPriceLowToHigh" finished-at="2025-07-22T04:28:42 UTC" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortByPriceLowToHigh -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:37 UTC" name="tearDown" finished-at="2025-07-21T04:05:38 UTC" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:42 UTC" name="tearDown" finished-at="2025-07-22T04:28:42 UTC" duration-ms="268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:38 UTC" name="setup" finished-at="2025-07-21T04:05:41 UTC" duration-ms="3238" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:42 UTC" name="setup" finished-at="2025-07-22T04:28:45 UTC" duration-ms="3011" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCartBadgeCount()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:41 UTC" name="verifyCartBadgeCount" finished-at="2025-07-21T04:05:41 UTC" duration-ms="186" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [2] but found [0]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [2] but found [0]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at tests.ProductTest.verifyCartBadgeCount(ProductTest.java:60)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="verifyCartBadgeCount()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:45 UTC" name="verifyCartBadgeCount" finished-at="2025-07-22T04:28:45 UTC" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCartBadgeCount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:41 UTC" name="tearDown" finished-at="2025-07-21T04:05:41 UTC" duration-ms="268" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:45 UTC" name="tearDown" finished-at="2025-07-22T04:28:46 UTC" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:41 UTC" name="setup" finished-at="2025-07-21T04:05:45 UTC" duration-ms="3371" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:46 UTC" name="setup" finished-at="2025-07-22T04:28:48 UTC" duration-ms="2356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:45 UTC" name="verifyPageTitle" finished-at="2025-07-21T04:05:45 UTC" duration-ms="87" status="PASS">
+        <test-method signature="verifyPageTitle()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:48 UTC" name="verifyPageTitle" finished-at="2025-07-22T04:28:48 UTC" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@6dc17b83]" started-at="2025-07-21T04:05:45 UTC" name="tearDown" finished-at="2025-07-21T04:05:45 UTC" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductTest@15de0b3c]" started-at="2025-07-22T04:28:48 UTC" name="tearDown" finished-at="2025-07-22T04:28:48 UTC" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.ProductTest -->
       <class name="tests.ProductUITest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:24 UTC" name="setup" finished-at="2025-07-21T04:06:27 UTC" duration-ms="3295" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:48 UTC" name="setup" finished-at="2025-07-22T04:28:51 UTC" duration-ms="3027" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkFontSizeOfProductTitle()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:27 UTC" name="checkFontSizeOfProductTitle" finished-at="2025-07-21T04:06:27 UTC" duration-ms="38" status="PASS">
+        <test-method signature="checkFontSizeOfProductTitle()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:51 UTC" name="checkFontSizeOfProductTitle" finished-at="2025-07-22T04:28:52 UTC" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkFontSizeOfProductTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:27 UTC" name="tearDown" finished-at="2025-07-21T04:06:28 UTC" duration-ms="615" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:52 UTC" name="tearDown" finished-at="2025-07-22T04:28:52 UTC" duration-ms="379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:28 UTC" name="setup" finished-at="2025-07-21T04:06:32 UTC" duration-ms="4626" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:52 UTC" name="setup" finished-at="2025-07-22T04:28:55 UTC" duration-ms="2993" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkPageTitleText()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:32 UTC" name="checkPageTitleText" finished-at="2025-07-21T04:06:32 UTC" duration-ms="86" status="PASS">
+        <test-method signature="checkPageTitleText()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:55 UTC" name="checkPageTitleText" finished-at="2025-07-22T04:28:55 UTC" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPageTitleText -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:32 UTC" name="tearDown" finished-at="2025-07-21T04:06:33 UTC" duration-ms="263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:55 UTC" name="tearDown" finished-at="2025-07-22T04:28:55 UTC" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:33 UTC" name="setup" finished-at="2025-07-21T04:06:36 UTC" duration-ms="3766" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:55 UTC" name="setup" finished-at="2025-07-22T04:28:58 UTC" duration-ms="3014" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="checkPriceColor()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:36 UTC" name="checkPriceColor" finished-at="2025-07-21T04:06:36 UTC" duration-ms="89" status="PASS">
+        <test-method signature="checkPriceColor()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:58 UTC" name="checkPriceColor" finished-at="2025-07-22T04:28:58 UTC" duration-ms="85" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPriceColor -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:36 UTC" name="tearDown" finished-at="2025-07-21T04:06:37 UTC" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:58 UTC" name="tearDown" finished-at="2025-07-22T04:28:59 UTC" duration-ms="349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:37 UTC" name="setup" finished-at="2025-07-21T04:06:40 UTC" duration-ms="3347" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:28:59 UTC" name="setup" finished-at="2025-07-22T04:29:02 UTC" duration-ms="3108" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="scrollToBottomAndVerifyFooter()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:40 UTC" name="scrollToBottomAndVerifyFooter" finished-at="2025-07-21T04:06:40 UTC" duration-ms="77" status="PASS">
+        <test-method signature="scrollToBottomAndVerifyFooter()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:02 UTC" name="scrollToBottomAndVerifyFooter" finished-at="2025-07-22T04:29:02 UTC" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scrollToBottomAndVerifyFooter -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:40 UTC" name="tearDown" finished-at="2025-07-21T04:06:40 UTC" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:02 UTC" name="tearDown" finished-at="2025-07-22T04:29:02 UTC" duration-ms="239" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:40 UTC" name="setup" finished-at="2025-07-21T04:06:44 UTC" duration-ms="3498" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:02 UTC" name="setup" finished-at="2025-07-22T04:29:06 UTC" duration-ms="3268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validateImagesLoaded()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:44 UTC" name="validateImagesLoaded" finished-at="2025-07-21T04:06:44 UTC" duration-ms="46" status="PASS">
+        <test-method signature="validateImagesLoaded()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:06 UTC" name="validateImagesLoaded" finished-at="2025-07-22T04:29:06 UTC" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateImagesLoaded -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:44 UTC" name="tearDown" finished-at="2025-07-21T04:06:44 UTC" duration-ms="239" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:06 UTC" name="tearDown" finished-at="2025-07-22T04:29:06 UTC" duration-ms="279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:44 UTC" name="setup" finished-at="2025-07-21T04:06:48 UTC" duration-ms="4217" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:06 UTC" name="setup" finished-at="2025-07-22T04:29:08 UTC" duration-ms="2375" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyInputSanitizationInCheckout()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:48 UTC" name="verifyInputSanitizationInCheckout" finished-at="2025-07-21T04:06:48 UTC" duration-ms="126" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c3ecb32b27305be905f6a22ddef52e86, findElement {using=id, value=checkout}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50638/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c3ecb32b27305be905f6a22ddef52e86]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#checkout"}
-  (Session info: chrome=138.0.7204.158)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.21.0', revision: '79ed462ef4'
-System info: os.name: 'Windows Server 2025', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c3ecb32b27305be905f6a22ddef52e86, findElement {using=id, value=checkout}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.158, chrome: {chromedriverVersion: 138.0.7204.157 (e533e98b126..., userDataDir: C:\Users\LABSKR~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50638/devtoo..., se:cdpVersion: 138.0.7204.158, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c3ecb32b27305be905f6a22ddef52e86
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-at tests.ProductUITest.verifyInputSanitizationInCheckout(ProductUITest.java:72)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="verifyInputSanitizationInCheckout()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:08 UTC" name="verifyInputSanitizationInCheckout" finished-at="2025-07-22T04:29:09 UTC" duration-ms="687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInputSanitizationInCheckout -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:49 UTC" name="tearDown" finished-at="2025-07-21T04:06:49 UTC" duration-ms="248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:09 UTC" name="tearDown" finished-at="2025-07-22T04:29:09 UTC" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:49 UTC" name="setup" finished-at="2025-07-21T04:06:52 UTC" duration-ms="3706" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:09 UTC" name="setup" finished-at="2025-07-22T04:29:11 UTC" duration-ms="2286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogoIsVisible()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:52 UTC" name="verifyLogoIsVisible" finished-at="2025-07-21T04:06:53 UTC" duration-ms="58" status="PASS">
+        <test-method signature="verifyLogoIsVisible()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:11 UTC" name="verifyLogoIsVisible" finished-at="2025-07-22T04:29:12 UTC" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoIsVisible -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@32eff876]" started-at="2025-07-21T04:06:53 UTC" name="tearDown" finished-at="2025-07-21T04:06:53 UTC" duration-ms="609" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductUITest@3857f613]" started-at="2025-07-22T04:29:12 UTC" name="tearDown" finished-at="2025-07-22T04:29:12 UTC" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

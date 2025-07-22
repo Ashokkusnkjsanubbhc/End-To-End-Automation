@@ -1,7 +1,8 @@
 
 	package tests;
 
-	import org.openqa.selenium.By;
+	import org.junit.BeforeClass;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -16,7 +17,7 @@ import org.testng.Assert;
 	    ProductPage productPage;
 	    CartPage cartPage;
 
-	    @BeforeMethod
+	    @BeforeClass
 	    public void setup() {
 	        driver = new ChromeDriver();
 	        driver.get("https://www.saucedemo.com/");

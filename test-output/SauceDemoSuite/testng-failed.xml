@@ -3,32 +3,19 @@
 <suite name="Failed suite [SauceDemoSuite]">
   <test thread-count="5" name="Login Test(failed)">
     <classes>
-      <class name="tests.ProductUITest">
-        <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
-          <include name="verifyInputSanitizationInCheckout"/>
-        </methods>
-      </class> <!-- tests.ProductUITest -->
-      <class name="tests.ProductTest">
-        <methods>
-          <include name="setup"/>
-          <include name="verifyCartBadgeCount"/>
-          <include name="addSingleProductToCart"/>
-          <include name="tearDown"/>
-          <include name="openProductDetails"/>
-          <include name="addAllProductsToCart"/>
-        </methods>
-      </class> <!-- tests.ProductTest -->
       <class name="tests.CartTest">
         <methods>
           <include name="addMultipleItemsToCartAndVerify"/>
-          <include name="setup"/>
+          <include name="verifyProductNameInCart"/>
+          <include name="verifyProductPriceInCart"/>
+          <include name="checkoutButtonNavigatesToCheckoutStepOne"/>
           <include name="tearDown"/>
           <include name="continueShoppingReturnsToProducts"/>
           <include name="addProductAndVerifyInCart"/>
           <include name="removeItemFromCartPage"/>
+          <include name="cartPageWithoutAddingItems"/>
           <include name="badgeCountMatchesCartItems"/>
+          <include name="freshLoginHasEmptyCart"/>
         </methods>
       </class> <!-- tests.CartTest -->
     </classes>
